@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "usuario" ALTER COLUMN "avatar" SET DEFAULT '1',
+ALTER COLUMN "avatar" SET DATA TYPE TEXT;

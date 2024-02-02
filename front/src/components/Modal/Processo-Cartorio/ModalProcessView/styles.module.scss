@@ -1,0 +1,133 @@
+
+.content{
+    display: flex;
+    flex-direction: column;
+    strong{
+        font-size: 1.1rem;
+    }
+    h3{
+        font-size: 1.1rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+}
+.button{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    button{
+        width: 160px;
+    }
+  
+}
+
+
+.divider {
+    padding: 0 2rem;
+}
+.title {
+    padding: 0 2rem;
+    background-color: #F3F3F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddf;
+
+    p {
+        padding-top: 1rem;
+        font-size: 1.2rem;
+        color: var(--black);
+    }
+
+
+}
+
+.lotes{
+    border-radius: 0.2rem;
+    width: 100%;
+    border: 1px solid #dddddf;
+    padding: 1rem;
+}
+
+.lotesContent{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap:1rem
+}
+.descricao{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.descricaoResposta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.table2{
+    td,th{
+        width: 25%;
+    }
+}
+
+.tableContainer{
+    width: 100%;
+    margin-top: 2rem;
+}
+.table{
+    td,th{
+        width: 30%;
+    }
+}
+
+.prazo{
+    height: 35px;
+    color: var(--white);
+    padding: 0.57rem;
+    margin-left: 1rem;
+    border-radius: 0.2rem;
+}
+.prazoAntes{background-color: var(--color2);}
+.prazoAtraso{
+    background-color: var(--red);
+}
+.prazoUltimo{
+    background-color: var(--yellow);
+}
+
+
+.detalhes{
+    padding: 2rem;
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    p{  
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 150px;
+    }
+}
+
+
+.observacaoContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.observacao{
+    background-color:#dddddf;;
+    color: var(--black);
+    height: 130px;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    word-wrap: break-word;
+    margin: 1rem 0;
+    overflow: auto;
+}

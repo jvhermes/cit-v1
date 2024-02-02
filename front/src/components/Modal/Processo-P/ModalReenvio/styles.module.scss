@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--black);
+    padding: 2rem 3rem 0;
+}
+
+.title {
+    padding: 0 2rem;
+    background-color: #F3F3F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddf;
+
+    p {
+        padding-top: 1rem;
+        font-size: 1.2rem;
+        color: var(--black);
+    }
+
+
+}
+
+.buttons{
+    button{
+        width: 200px;
+        height: 35px;
+    }
+    margin: 3rem auto 0;
+}
+
+.observacao{
+    textarea{
+        width: 100%;
+        height: 130px;
+        background-color:#F3F3F4 ;
+        color: var(--black); 
+        border-radius: 0.2rem;
+        padding: 1rem;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    
+}
+
+.selecao{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  
+    select{
+        width: 200px;
+        height: 30px;
+        background-color: var(--gray);
+        border-radius: 0.3rem;
+    }
+}

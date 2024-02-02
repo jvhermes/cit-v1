@@ -1,0 +1,119 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    strong{
+        font-size: 1.1rem;
+    }
+    h3{
+        font-size: 1.1rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+
+}
+
+.button{
+    margin: 2rem 0;
+   
+    display: flex;
+    justify-content: center;
+    button{
+        width: 160px;
+    }
+}
+
+.title {
+    padding: 0 2rem;
+    background-color: #F3F3F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddf;
+
+    p {
+        padding-top: 1rem;
+        font-size: 1.2rem;
+        color: var(--black);
+    }
+
+
+}
+
+
+.lotes{
+    padding: 2rem 1rem ;
+    justify-content: center;
+    background-color:var(--white);
+    border: 1px solid #dddddf;
+}
+.lotesContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+    gap:1rem
+}
+
+
+
+.detalhes{
+    margin: 1rem 0 ;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 170px;
+        padding: 0.5rem;
+
+        margin: 0;
+    }
+ 
+}
+
+.descricao{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.observacao{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    h3{
+        padding: 1rem 0;
+    }
+
+    .observacaoMaior{
+        height: 130px;
+        background-color:#F3F3F4 ;
+        color: var(--black); 
+        border-radius: 0.2rem;
+        padding: 1rem;
+        word-wrap: break-word;
+    }
+ 
+   
+}
+
+.tableContainer{
+    width: 100%;
+}
+.table{
+    td,th{
+        width: 30%;
+    }
+}
+
+.divider {
+    padding: 0 2rem;
+}

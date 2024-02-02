@@ -1,0 +1,322 @@
+.container{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.dados{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+
+.filter{
+    display: grid;
+    padding: 1rem 2rem;
+    p{
+        font-size: 1.1rem;
+       
+    }
+}
+.divider{
+    padding: 0 2rem;
+}
+.filterTopSide{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 2rem;
+    input{
+        height: 35px;
+    }
+ 
+}
+
+.cardFiltro{
+    display: flex;
+    flex-direction: column;
+    border: 1px #dddddf solid;
+    border-radius: 0.3rem;
+    height: 12rem;
+    padding: 1rem;
+    width: 20rem;
+    .cardFiltroBaixo{
+        margin-top: 1rem;
+    }
+    div{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    label{
+        margin-bottom: 0.3rem;
+    }
+}
+
+
+.lotes{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+}
+
+.selecao{
+    padding: 1rem 2rem;
+    ul{
+     
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    li{
+        list-style: none;
+        flex-wrap: wrap;
+        display: flex;
+        gap:1rem;
+    }
+    p{
+        font-size: 1.1rem;
+        
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+    label{
+        margin-left: 0.2rem;
+        margin-bottom: 0.3rem;
+    }
+    textarea{
+        height: 50px;
+        width: 20.3rem;
+        border-radius: 0.2rem;
+        border: 1px #dddddf solid;
+        padding: 0.7rem;
+        overflow: hidden;
+        resize: none;
+    }
+}
+
+
+.base{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: var(--black);
+    background-color: var(--white);
+ 
+    .baseFlex{
+        display: flex;
+        flex-direction: column;
+
+       label{
+        padding: 0.1rem;
+       }
+       input{
+        height: 38px;
+        width: 140px;
+    }
+    }
+
+    .baseInput{
+        display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+        input{
+            height: 38px;
+            width: 150px;
+        }
+    }
+    
+
+}
+
+
+.title{
+    padding: 1rem 2rem 0 2rem;
+    background-color: #F3F3F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddf;
+    p{
+        font-size: 1.2rem;
+        color: var(--black);
+        
+    }
+    button{
+        margin-bottom: 0.7rem;
+    }
+}
+
+.tableContainer{
+    width: 100%;
+    margin-top: 1rem;
+}
+.table{
+    td,th{
+        width: 27%;
+    }
+    input{
+        width: 230px;
+    }
+}
+.enviar{
+    width: 200px;
+    height: 35px;
+}
+.enviarBox{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.descriptionTable{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    padding: 2rem;
+    p{
+        font-size: 1.1rem;
+    }
+    textarea{
+        border: 1px #dddddf solid;
+        width: 100%;
+        margin-top: 2rem ;
+        height: 85px;
+        border-radius: 0.2rem;
+        padding: 0.7rem;
+        overflow: hidden;
+        resize: vertical;
+    }
+}
+
+.segment{
+ 
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    .anexar{
+        font-size: 1rem;
+    }
+}
+
+.finalContent{
+    display: flex;
+   
+    justify-content: space-around;
+    padding: 1rem 0;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.final{
+ 
+    padding: 0 2rem;
+    p{
+        font-size: 1.1rem;
+    }
+}
+.encaminhar{
+  
+    padding: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.pdfLabel{
+    display: flex;
+    height: 2.6rem;
+   
+    cursor: pointer;
+    input{
+        display: none;
+    }
+    .pdfUpload{
+        color: white;
+        background-color: var(--red);
+        border-top-right-radius: 0.2rem;
+        border-bottom-right-radius: 0.2rem;
+        padding: 0 .7rem;
+        display: flex;
+        align-items: center;
+        gap:.5rem;
+        height: 2.5rem;
+    }
+    .pdfName{
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        border: 1px solid #dddddf ;
+        border-top-left-radius: 0.2rem;
+        border-bottom-left-radius: 0.2rem;
+        background-color: #F3F3F4;
+        width: 20rem;
+        height: 2.5rem;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+.number{
+    margin: 1rem 0;
+    gap: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span{
+        margin-right: 3rem;
+        font-size: 1.1rem;
+    }
+}
+
+
+
+
+
+.pessoa{
+    background-color: var(--white);
+    width: 100%;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    textarea{
+        border: 1px #dddddf solid;
+        width: 100%;
+        margin-top: 2rem ;
+        height: 85px;
+        border-radius: 0.2rem;
+        padding: 0.7rem;
+        overflow: hidden;
+    }
+}
+
+.pessoaDados{
+    list-style: none;
+    display: flex;
+    gap:1rem;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 0.3rem;
+    input{
+        width: 15rem;
+        height: 35px;
+        border-radius: 0.3rem;
+        border: none;
+        padding-left: 5px;
+    }
+}
+
+
+

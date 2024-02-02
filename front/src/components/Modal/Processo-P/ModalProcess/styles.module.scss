@@ -1,0 +1,188 @@
+.content {
+    color: var(--black);
+    strong {
+        font-size: 1.1rem;
+    }
+    overflow: auto;
+
+    .alvara {
+        background-color: #dddddf;
+        padding: 1rem;
+    }
+    h3{
+        font-size: 1.1rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+
+}
+.observacao {
+    background-color: #dddddf;
+    color: var(--black);
+    height: 130px;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+.title {
+    padding: 0 2rem;
+    background-color: #F3F3F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddf;
+
+    p {
+        padding-top: 1rem;
+        font-size: 1.2rem;
+        color: var(--black);
+    }
+
+
+}
+
+.divider {
+    padding: 0 2rem;
+}
+
+
+.finais {
+    border: 1px solid;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    margin: 2rem 0;
+    gap: 1rem;
+    justify-content: center;
+    button {
+        width: 160px;
+        height: 45px;
+    }
+}
+
+.strong{
+    font-size: 1.2rem;
+}
+.strong2{
+    font-size: 1.4rem;
+}
+.lotes {
+    border-radius: 0.2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    border: 1px solid #dddddf;
+    padding: 1rem;
+}
+
+
+.reenvio {
+    background-color: #dddddf;
+    color: var(--black);
+    height: 130px;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    word-wrap: break-word;
+    margin: 1rem 0;
+    overflow: auto;
+}
+
+.reenvioContent{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 0;
+}
+
+.detalhes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 2rem 0rem 2rem;
+    p {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 170px;
+        height: 70px;
+        padding: 0.5rem;
+       
+    }
+    .respondido {
+        padding: 0.5rem;
+        border-radius: 0.2rem;
+        width: 150px;
+        height: 65px;
+        background-color: #dddddf;
+
+    }
+    .prazoAntes {
+        background-color: var(--color2);
+    }
+
+    .prazoAtraso {
+        background-color: var(--red);
+    }
+
+    .prazoUltimo {
+        background-color: var(--yellow);
+    }
+
+    .prazo {
+        color: var(--white);
+        padding: 0.57rem;
+        margin-left: 1rem;
+        border-radius: 0.2rem;
+        height: 35px;
+    }
+
+
+}
+
+
+.buttonIcon {
+    padding-left: 1rem;
+}
+
+
+
+
+
+.descricao {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.descricaoResposta {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tableContainer {
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+.table {
+    td,
+    th {
+        width: 30%;
+    }
+}
+
+.table2 {
+
+    td,
+    th {
+        width: 25%;
+    }
+}

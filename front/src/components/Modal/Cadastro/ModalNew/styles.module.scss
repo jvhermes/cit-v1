@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    padding: 0 2rem;
+    background-color: #F3F3F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddf;
+
+    p {
+        padding-top: 1rem;
+        font-size: 1.2rem;
+        color: var(--black);
+    }
+
+
+}
+.botao{
+    button{
+        width: 200px;
+        height: 35px;
+    }
+    input{
+        width: 300px;
+    }
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 2rem;
+}
